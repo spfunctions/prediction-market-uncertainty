@@ -3,7 +3,7 @@
 [![npm](https://img.shields.io/npm/v/prediction-market-uncertainty)](https://www.npmjs.com/package/prediction-market-uncertainty)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
-**Real-time uncertainty index from 30,000+ prediction markets. One function, one number (0-100).**
+**Real-time uncertainty index from the live prediction-market universe. One function, one number (0-100).**
 Zero dependencies. Built-in 5-minute cache. Works in Node, browsers, Deno, Bun, edge runtimes.
 
 ```ts
@@ -17,7 +17,7 @@ const score = await uncertainty()   // 22
 
 A single number (0-100) that measures **how much real-money prediction markets
 disagree with each other right now**. Derived from orderbook spreads across
-30,000+ markets on Kalshi and Polymarket — narrow spreads = traders agree on
+the live market universe on Kalshi and Polymarket — narrow spreads = traders agree on
 where the price should be (low uncertainty); wide spreads = traders disagree
 (high uncertainty).
 
